@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+      serverActions: true, // Add this line
+    },
     rewrites: async () => {
       return [
         {
