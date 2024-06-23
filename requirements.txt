@@ -1,0 +1,6 @@
+fastapi==0.111.0
+uvicorn[standard]==0.23.2
+supabase==2.5.1
+pydantic==2.7.4
+passlib==1.7.4
+jwt==0.6.1
