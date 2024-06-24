@@ -38,7 +38,7 @@ export default async function Index() {
 
       <footer className="w-full border-t border-t-foreground/10 p-8 flex justify-center text-center text-xs">
         <p>
-          Made with love by Young
+          Made with love by Young ❤️
         </p>
       </footer>
     </div>
