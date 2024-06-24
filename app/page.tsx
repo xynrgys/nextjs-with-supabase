@@ -38,7 +38,15 @@ export default async function Index() {
 
       <footer className="w-full border-t border-t-foreground/10 p-8 flex justify-center text-center text-xs">
         <p>
-          Made with love by Young ❤️
+          Made with ❤️ by {" "}
+          <a
+            href="https://www.linkedin.com/in/young-so-273827132/"
+            target="_blank"
+            className="font-bold hover:underline"
+            rel="noreferrer"
+          >
+            Young
+          </a>
         </p>
       </footer>
     </div>
