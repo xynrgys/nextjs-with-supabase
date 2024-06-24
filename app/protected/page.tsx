@@ -25,7 +25,7 @@ export default async function ProtectedPage() {
         </div>
         <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
           <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm">
-            <DeployButton />
+            <h3 className="font-bold text-xl">Serpent</h3>
             <AuthButton />
           </div>
         </nav>
@@ -41,14 +41,14 @@ export default async function ProtectedPage() {
 
       <footer className="w-full border-t border-t-foreground/10 p-8 flex justify-center text-center text-xs">
         <p>
-          Powered by{" "}
+          Made with ❤️ by {" "}
           <a
-            href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
+            href="https://www.linkedin.com/in/young-so-273827132/"
             target="_blank"
             className="font-bold hover:underline"
             rel="noreferrer"
           >
-            Supabase
+            Young
           </a>
         </p>
       </footer>
